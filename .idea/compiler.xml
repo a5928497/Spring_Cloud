@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microserviceapi" />
+        <module name="microserviceprovider8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microserviceapi" target="1.5" />
       <module name="microservicecloud" target="1.5" />
+      <module name="microserviceprovider8001" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
