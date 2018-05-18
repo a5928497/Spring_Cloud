@@ -15,7 +15,7 @@
     <packaging>pom</packaging>
 
     <name>microservicecloud</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project for Spring Cloud</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -80,10 +80,28 @@
         </dependencies>
     </dependencyManagement>
     <build>
+        <finalName>microservicecloud</finalName>
+        <resources>
+            <resource>
+                <!--允许扫描该路径下的资源文件-->
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <!--指定动态获取以$标志开头结尾的自定义信息-->
+                        <delimit>$</delimit>
+                    </delimiters>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
