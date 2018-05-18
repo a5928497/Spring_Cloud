@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.List;
+
 @Controller
 public class DeptController {
     @Autowired
@@ -16,19 +18,19 @@ public class DeptController {
 
     @ResponseBody
     @PostMapping("/dept")
-    public String addDept(Dept dept) {
-        return String.valueOf(deptService.addDept(dept));
+    public boolean addDept(Dept dept) {
+        return deptService.addDept(dept);
     }
 
     @ResponseBody
-    @GetMapping("dept")
-    public String findAll() {
-        return deptService.findAll().toString();
+    @GetMapping("/dept")
+    public List<Dept> findAll() {
+        return deptService.findAll();
     }
 
     @ResponseBody
     @GetMapping("/dept/{id}")
-    public String findById(@PathVariable("id")Integer id) {
-        return deptService.findById(id).toString();
+    public Dept findById(@PathVariable("id")Integer id) {
+        return deptService.findById(id);
     }
 }
