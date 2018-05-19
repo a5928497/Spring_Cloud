@@ -2,15 +2,13 @@ package com.lzl.controller;
 
 import com.lzl.entity.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/consumer")
 public class ConsumerDeptController {
 
     @Autowired
@@ -32,5 +30,10 @@ public class ConsumerDeptController {
     @RequestMapping("/dept/add")
     public boolean addDept(Dept dept) {
         return restTemplate.postForObject(URL_PREFIX+"dept",dept,boolean.class);
+    }
+
+    @GetMapping("/discovery")
+    public Object discovery() {
+        return restTemplate.getForObject(URL_PREFIX+"/provider/discovery",Object.class);
     }
 }
