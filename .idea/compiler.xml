@@ -10,6 +10,8 @@
         <module name="microserviceapi" />
         <module name="microserviceconsumer80" />
         <module name="microserviceeureka7001" />
+        <module name="microserviceeureka7002" />
+        <module name="microserviceeureka7003" />
         <module name="microserviceprovider-8001" />
         <module name="microserviceprovider8001" />
       </profile>
@@ -20,6 +22,8 @@
       <module name="microservicecloud" target="1.5" />
       <module name="microserviceconsumer80" target="1.5" />
       <module name="microserviceeureka7001" target="1.5" />
+      <module name="microserviceeureka7002" target="1.5" />
+      <module name="microserviceeureka7003" target="1.5" />
       <module name="microserviceprovider-8001" target="1.5" />
       <module name="microserviceprovider8001" target="1.5" />
     </bytecodeTargetLevel>
