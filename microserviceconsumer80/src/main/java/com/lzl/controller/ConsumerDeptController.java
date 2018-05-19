@@ -13,7 +13,7 @@ public class ConsumerDeptController {
 
     @Autowired
     private RestTemplate restTemplate;
-    private static final String URL_PREFIX = "http://localhost:8001/";
+    private static final String URL_PREFIX = "http://MICROSERVICECLOUD-DEPT/";
 
     @RequestMapping("/dept")
     public List findAll() {
