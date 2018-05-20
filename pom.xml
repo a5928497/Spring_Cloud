@@ -15,6 +15,7 @@
         <module>microserviceeureka7003</module>
         <module>microserviceprovider8002</module>
         <module>microserviceprovider8003</module>
+        <module>microservice80feign</module>
     </modules>
     <packaging>pom</packaging>
 
