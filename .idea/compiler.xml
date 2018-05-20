@@ -15,6 +15,7 @@
         <module name="microserviceeureka7003" />
         <module name="microserviceprovider-8001" />
         <module name="microserviceprovider8001" />
+        <module name="microserviceprovider8001Hystrix" />
         <module name="microserviceprovider8002" />
         <module name="microserviceprovider8003" />
       </profile>
@@ -30,6 +31,7 @@
       <module name="microserviceeureka7003" target="1.5" />
       <module name="microserviceprovider-8001" target="1.5" />
       <module name="microserviceprovider8001" target="1.5" />
+      <module name="microserviceprovider8001Hystrix" target="1.5" />
       <module name="microserviceprovider8002" target="1.5" />
       <module name="microserviceprovider8003" target="1.5" />
     </bytecodeTargetLevel>

@@ -16,6 +16,7 @@
         <module>microserviceprovider8002</module>
         <module>microserviceprovider8003</module>
         <module>microservice80feign</module>
+        <module>microserviceprovider8001Hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
