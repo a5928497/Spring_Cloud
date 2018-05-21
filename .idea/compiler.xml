@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-eureka-7001" />
         <module name="microservice80feign" />
+        <module name="microservice9001HystrixDashboard" />
         <module name="microserviceapi" />
         <module name="microserviceconsumer80" />
         <module name="microserviceeureka7001" />
@@ -23,6 +24,7 @@
     <bytecodeTargetLevel>
       <module name="microservice-eureka-7001" target="1.5" />
       <module name="microservice80feign" target="1.5" />
+      <module name="microservice9001HystrixDashboard" target="1.5" />
       <module name="microserviceapi" target="1.5" />
       <module name="microservicecloud" target="1.5" />
       <module name="microserviceconsumer80" target="1.5" />
