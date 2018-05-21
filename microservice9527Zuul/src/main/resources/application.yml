@@ -20,6 +20,6 @@ info:
 zuul:
   routes:
     dept0.serviceId: microservicecloud-dept
-    dept0.path: /dept0/**
+    dept0.path: /dept10/**
   ignored-services: microservicecloud-*
   prefix: /nihao
