@@ -18,6 +18,7 @@
         <module>microservice80feign</module>
         <module>microserviceprovider8001Hystrix</module>
         <module>microservice9001HystrixDashboard</module>
+        <module>microservice9527Zuul</module>
     </modules>
     <packaging>pom</packaging>
 

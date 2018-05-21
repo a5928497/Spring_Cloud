@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/microserviceeureka7001/microservice-eureka-7001.iml" filepath="$PROJECT_DIR$/microserviceeureka7001/microservice-eureka-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice80feign/microservice80feign.iml" filepath="$PROJECT_DIR$/microservice80feign/microservice80feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice9001HystrixDashboard/microservice9001HystrixDashboard.iml" filepath="$PROJECT_DIR$/microservice9001HystrixDashboard/microservice9001HystrixDashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice9527Zuul/microservice9527Zuul.iml" filepath="$PROJECT_DIR$/microservice9527Zuul/microservice9527Zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserviceapi/microserviceapi.iml" filepath="$PROJECT_DIR$/microserviceapi/microserviceapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud.iml" filepath="$PROJECT_DIR$/microservicecloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserviceconsumer80/microserviceconsumer80.iml" filepath="$PROJECT_DIR$/microserviceconsumer80/microserviceconsumer80.iml" />
