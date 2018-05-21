@@ -5,6 +5,7 @@ spring:
   application:
     name: microservicecloud-zuul   #为这个服务取名，非常重要！！！！！
 
+
 eureka:
   client:
     service-url:
@@ -15,3 +16,10 @@ eureka:
 info:
   author: lzl
   build-version: $project.version$
+
+zuul:
+  routes:
+    dept0.serviceId: microservicecloud-dept
+    dept0.path: /dept0/**
+  ignored-services: microservicecloud-*
+  prefix: /nihao
