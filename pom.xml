@@ -20,6 +20,7 @@
         <module>microservice9001HystrixDashboard</module>
         <module>microservice9527Zuul</module>
         <module>microservice3344ConfigServer</module>
+        <module>microservice3355ConfigClient</module>
     </modules>
     <packaging>pom</packaging>
 
