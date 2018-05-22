@@ -19,6 +19,7 @@
         <module>microserviceprovider8001Hystrix</module>
         <module>microservice9001HystrixDashboard</module>
         <module>microservice9527Zuul</module>
+        <module>microservice3344ConfigServer</module>
     </modules>
     <packaging>pom</packaging>
 

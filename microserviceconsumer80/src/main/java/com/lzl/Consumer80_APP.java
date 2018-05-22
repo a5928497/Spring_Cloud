@@ -1,6 +1,5 @@
 package com.lzl;
 
-import com.Rules.MyRule;
 import com.Rules.MyRuleCfg;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
