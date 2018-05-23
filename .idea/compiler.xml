@@ -9,6 +9,8 @@
         <module name="microservice-eureka-7001" />
         <module name="microservice3344ConfigServer" />
         <module name="microservice3355ConfigClient" />
+        <module name="microservice7001EurekaClient" />
+        <module name="microservice8001ProviderClient" />
         <module name="microservice80feign" />
         <module name="microservice9001HystrixDashboard" />
         <module name="microservice9527Zuul" />
@@ -28,6 +30,8 @@
       <module name="microservice-eureka-7001" target="1.5" />
       <module name="microservice3344ConfigServer" target="1.5" />
       <module name="microservice3355ConfigClient" target="1.5" />
+      <module name="microservice7001EurekaClient" target="1.5" />
+      <module name="microservice8001ProviderClient" target="1.5" />
       <module name="microservice80feign" target="1.5" />
       <module name="microservice9001HystrixDashboard" target="1.5" />
       <module name="microservice9527Zuul" target="1.5" />

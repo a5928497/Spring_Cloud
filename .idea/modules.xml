@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/microserviceeureka7001/microservice-eureka-7001.iml" filepath="$PROJECT_DIR$/microserviceeureka7001/microservice-eureka-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice3344ConfigServer/microservice3344ConfigServer.iml" filepath="$PROJECT_DIR$/microservice3344ConfigServer/microservice3344ConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice3355ConfigClient/microservice3355ConfigClient.iml" filepath="$PROJECT_DIR$/microservice3355ConfigClient/microservice3355ConfigClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice7001EurekaClient/microservice7001EurekaClient.iml" filepath="$PROJECT_DIR$/microservice7001EurekaClient/microservice7001EurekaClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice8001ProviderClient/microservice8001ProviderClient.iml" filepath="$PROJECT_DIR$/microservice8001ProviderClient/microservice8001ProviderClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice80feign/microservice80feign.iml" filepath="$PROJECT_DIR$/microservice80feign/microservice80feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice9001HystrixDashboard/microservice9001HystrixDashboard.iml" filepath="$PROJECT_DIR$/microservice9001HystrixDashboard/microservice9001HystrixDashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice9527Zuul/microservice9527Zuul.iml" filepath="$PROJECT_DIR$/microservice9527Zuul/microservice9527Zuul.iml" />

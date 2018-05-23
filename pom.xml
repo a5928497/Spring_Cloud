@@ -21,6 +21,8 @@
         <module>microservice9527Zuul</module>
         <module>microservice3344ConfigServer</module>
         <module>microservice3355ConfigClient</module>
+        <module>microservice8001ProviderClient</module>
+        <module>microservice7001EurekaClient</module>
     </modules>
     <packaging>pom</packaging>
 
